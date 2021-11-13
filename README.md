@@ -1,4 +1,4 @@
-# data-mining-project
+# Data Mining Project 👨
 
 ## Agenda
 - Share what we have done till now.
