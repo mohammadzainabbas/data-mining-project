@@ -1,7 +1,7 @@
-# data-mining-project
+# Data Mining Project 👨
 
 ## Infomation on files in Directory
-- buses.html, shows plots of buses against time. 
+- buses.html, shows plots of buses against time.
 
 ## Agenda
 - Share what we have done till now.
