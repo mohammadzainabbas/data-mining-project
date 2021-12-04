@@ -1,4 +1,4 @@
-# Data Mining Project 👨
+# Data Mining Project 👨🏻‍💻
 
 ## Infomation on files in Directory
 - buses.html, shows plots of buses against time.
