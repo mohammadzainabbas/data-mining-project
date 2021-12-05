@@ -4,7 +4,7 @@
 - buses.html, shows plots of buses against time.
 
 ## Agenda
-- Share what we have done till now.
+- Share what we have done till now. (done)
 
 ### Minutes of the meeting
 ### Task 1 & 2)
@@ -19,10 +19,12 @@
 - Do trams or train skip the stops ?
 - Does time of day affect how long the vehicles stays on a stop ?
 - Reduce the granularity of the data and see its impact.
+-
 
 #### Data Cleaning
 - Check for time jumps in data. Find and handle time jumps.
 - Remove faulty stops from the
+-
 
 #### Find speed of Vehicles
 - Flatten the JSON array
@@ -41,4 +43,7 @@
 - How will we be presenting the project.
 - Look for a python library to show moving objects on map. (as a backup we will use
 heat maps) e.g. pyshape, QGIS, aak prof how he did it.
--
+
+
+### Resources
+https://epsg.io/transform#s_srs=4326&t_srs=3857
