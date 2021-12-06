@@ -1,44 +1,53 @@
-# Data Mining Project 👨🏻‍💻
+### Data Mining Project 👨🏻‍💻
 
-## Information on files in Directory
-- buses.html, shows plots of buses against time.
+</br>
 
-## Agenda
-- Share what we have done till now.
+<div>
+  <a href="https://open.vscode.dev/mohammadzainabbas/data-mining-project" target="_blank" style="cursor: pointer;"> 
+    <img src="https://open.vscode.dev/badges/open-in-vscode.svg" style="cursor: pointer;"/>
+  </a>
+</div>
 
-### Minutes of the meeting
-### Task 1 & 2)
-#### How will we visualize the vehicles speed.
- - Use QGIS for visualization.
- - In order to show delays, we can use colors. Red car if it's late, green if on time, blue
- - backup: use of speed-time plot.
+### Table of contents
 
-#### Analyse
-- Check behavior of the busses on stops. which one they miss.
-- Do the busses wait on a stop if they get early, so sync the time ?
-- Do trams or train skip the stops ?
-- Does time of day affect how long the vehicles stays on a stop ?
-- Reduce the granularity of the data and see its impact.
+- [Introduction](#introduction)
+- [Project Overview](#project-overview)
+  * [About the Data](#about-the-data)
 
-#### Data Cleaning
-- Check for time jumps in data. Find and handle time jumps.
-- Remove faulty stops from the
+---
 
-#### Find speed of Vehicles
-- Flatten the JSON array
-- Get distance between 2 stops   # (Important)
-  - CHeck data file to see if we can get
+<a id="introduction" />
 
-## Work divisions
-- Vlada: get info on presentation, how did professor use QGIS. Also look into
-`exploratory_data_analysis ` python notebook. Open data in QGIS file.
-- Ismail: bus
-- Mael: Use QGIS for visualization.
-- Zain: Analyse the data.
+#### 1. Introduction
 
+Since, during our stay in Brussels, we were a regular user of [`STIB-MIVB`](https://www.stib-mivb.be/) - Brussels' Public Transport Company. Like most of the companies nowadays, `STIB-MIVB` provide real-time GIS data for all the buses, trams and trains in Brussels. We will be working on few days worth of data pulled from [open data portal](https://opendata.stib-mivb.be/store/).
 
-### Questions / ToDos
-- How will we be presenting the project.
-- Look for a python library to show moving objects on map. (as a backup we will use
-heat maps) e.g. pyshape, QGIS, aak prof how he did it.
--
+---
+
+<a id="project-overview" />
+
+#### 2. Project Overview
+
+The aim of this project is to analyse the data and provide the following insights:
+
+- [x] Analyze the vehicle speed over the different network segments, how it varies across segments and over time. Present this in a suitable visual
+- [x] Analyze the vehicle delays at the different stops, how it varies across stops, and over time. Present this in a suitable visual way
+- [x] Given a vehicle start time, do arrival time forecasting at a given stop in
+the route of this vehicle. You should be able to test the accuracy of your forecasting by randomly splitting the given dataset in disjoint training and testing subsets.
+- [x] The GPS tracks are for real people moving in Brussels. In fact they are from _Mahmoud_ and _Jean-Philippe_. You are asked to infer the mode of transport of each of these tracks (bus, tram, etc)
+- [x] Think your own of a valuable analysis on this data
+
+---
+
+<a id="about-the-data" />
+
+##### 2.1. About the Data
+
+Before working on the project, let's explore what kind of data do we have. Professor collected about 3 weeks of data which consist of the following:
+
+1. The location of all vehicles every +/- 30 seconds (in JSON format)
+2. ESRI Shape files describing the map (lines and stops) of `STIB-MIVB` network, two snapshots `3 Sept, 2021` and `23 Sept, 2021`
+3. GTFS files containing the offline plan/schedule covering the same period of the vehicle location data, two snapshots `3 Sept, 2021` and `23 Sept, 2021`
+4. GPS tracks to identify the mode of transportation.
+
+---
