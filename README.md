@@ -12,7 +12,7 @@
 
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
-  * [About the Data](#about-the-data)
+- [About the Data](#about-the-data)
 
 ---
 
@@ -41,7 +41,7 @@ the route of this vehicle. You should be able to test the accuracy of your forec
 
 <a id="about-the-data" />
 
-##### 2.1. About the Data
+#### 3. About the Data
 
 Before working on the project, let's explore what kind of data do we have. Professor collected about 3 weeks of data which consist of the following:
 
