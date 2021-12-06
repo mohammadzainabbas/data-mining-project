@@ -1,6 +1,6 @@
 # Data Mining Project 👨🏻‍💻
 
-## Infomation on files in Directory
+## Information on files in Directory
 - buses.html, shows plots of buses against time.
 
 ## Agenda
