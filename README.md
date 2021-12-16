@@ -3,9 +3,6 @@
 ## Infomation on files in Directory
 - buses.html, shows plots of buses against time.
 
-## Agenda
-- Share what we have done till now. (done)
-
 ### Minutes of the meeting
 ### Task 1 & 2)
 #### How will we visualize the vehicles speed.
